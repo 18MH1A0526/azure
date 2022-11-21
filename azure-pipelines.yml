@@ -49,4 +49,4 @@ steps:
     mavenVersionOption: 'Default'
     effectivePomSkip: true
     sonarQubeRunAnalysis: false
-    goals: 'clean install package deploy $(MAVEN_OPTS)  -DmuleDeploy -Dserver=Anypoint -Denvironment=Sandbox -Dworker=1 -DworkerType=MICRO -Dapp.runtime=4.4.0 -Dapp.name=azure-cicd-demo'
+    goals: 'clean install package deploy $(MAVEN_OPTS)  -DmuleDeploy -Dserver=Anypoint -Denvironment=Sandbox -Dworker=1 -DworkerType=MICRO -Dapp.runtime=4.4.0 -Dapp.name=azure-cicd-deplo'
